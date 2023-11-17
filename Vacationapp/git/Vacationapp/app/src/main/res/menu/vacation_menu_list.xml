@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="London"
+        android:id="@+id/vaca1"/>
+    <item android:title="Maui"
+        android:id="@+id/vaca2"/>
+    <item android:title="Tokyo"
+        android:id="@+id/vaca3"/>
+    <item android:title="New York City"
+        android:id="@+id/vaca4"/>
+    <item android:title="Bangkok"
+        android:id="@+id/vaca5"/>
+
+</menu>
