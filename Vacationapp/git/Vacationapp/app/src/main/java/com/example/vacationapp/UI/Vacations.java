@@ -33,8 +33,8 @@ public class Vacations extends AppCompatActivity {
         return true;
     }
     public boolean onOptionsItemSelected(MenuItem item){
-        if(item.getItemId()==R.id.vaca1){
-            Toast.makeText(Vacations.this, "This is a test", Toast.LENGTH_LONG).show();
+        if(item.getItemId()==R.id.vaca_lists){
+            Toast.makeText(Vacations.this, "A list of all vacations", Toast.LENGTH_LONG).show();
             return true;
         }
         if(item.getItemId()==android.R.id.home){

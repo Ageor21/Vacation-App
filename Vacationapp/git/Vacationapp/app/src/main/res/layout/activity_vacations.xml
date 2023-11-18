@@ -28,38 +28,71 @@
         android:background="#CC0066"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-
-            <EditText
-                android:id="@+id/id_vacation"
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:text="Vacation" />
-
+                android:padding="10dp"
+                android:text="Vacation: "></TextView>
             <EditText
-                android:id="@+id/id_hotel"
+                android:id="@+id/vacations"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:text="Hotel" />
-
-            <EditText
-                android:id="@+id/id_start"
+                android:text="___"></EditText>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="Start Date" />
-
-            <EditText
-                android:id="@+id/id_end"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:text="Hotel: "></TextView>
+                <EditText
+                    android:id="@+id/hotels"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="___"></EditText>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="End Date" />
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:text="Start_Date: "></TextView>
+                <EditText
+                    android:id="@+id/start_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="___"></EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:text="End_Date: "></TextView>
+                <EditText
+                    android:id="@+id/end_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="___"></EditText>
+            </LinearLayout>
         </LinearLayout>
-
     </ScrollView>
 
     <Button

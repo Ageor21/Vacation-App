@@ -13,15 +13,18 @@
         android:theme="@style/Theme.VacationApp"
         tools:targetApi="31">
         <activity
-            android:name=".UI.Excursions"
-            android:label="Excursions"
-            android:parentActivityName=".UI.Vacations"
+            android:name=".UI.Vacation_Lists"
             android:exported="false" />
         <activity
+            android:name=".UI.Excursions"
+            android:exported="false"
+            android:label="Excursions"
+            android:parentActivityName=".UI.Vacations" />
+        <activity
             android:name=".UI.Vacations"
+            android:exported="false"
             android:label="Vacation Scheduler"
-            android:parentActivityName=".UI.HomeScreen"
-            android:exported="false" />
+            android:parentActivityName=".UI.HomeScreen" />
         <activity
             android:name=".UI.HomeScreen"
             android:exported="true"
