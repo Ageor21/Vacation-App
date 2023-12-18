@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Vacation app</string>
+    <string name="channel1">mychannelname2</string>
+    <string name="channel_d1">mychanneldescription2</string>
+    <string name="channel2">mychannelname3</string>
+    <string name="channel_d2">mychanneldescription3</string>
+    <string name="channel3">mychannelname3</string>
+    <string name="channel_d3">mychanneldescription3</string>
 </resources>

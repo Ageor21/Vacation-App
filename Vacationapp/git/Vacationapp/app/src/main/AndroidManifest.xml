@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,25 +14,49 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VacationApp"
         tools:targetApi="31">
+        <receiver
+            android:name=".UI.MyReceiver2"
+            android:enabled="true"
+            android:exported="true"></receiver>
+        <receiver
+            android:name=".UI.MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".UI.Information"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity
-            android:name=".UI.Vacation_Lists"
-            android:label="Vacation Details"
-            android:parentActivityName=".UI.Vacation_Lists"
-            android:exported="false" />
-        <activity
-            android:name=".UI.Excursions"
+            android:name=".UI.ItemsDetails"
             android:exported="false"
-            android:label="Excursions"
-            android:parentActivityName=".UI.Vacations" />
+            android:label="Excursion Details"
+            android:parentActivityName=".UI.VacationDetails">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".UI.VacationDetails"
+            android:exported="false"
+            android:label="Vacation Details"
+            android:parentActivityName=".UI.Vacations">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".UI.Vacations"
             android:exported="false"
-            android:label="Vacation Scheduler"
-            android:parentActivityName=".UI.HomeScreen" />
+            android:label="list of Vacations"
+            android:parentActivityName=".UI.HomeScreen">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".UI.HomeScreen"
-            android:exported="true"
-            android:label="Home Screen">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -8,12 +8,15 @@ public class items {
     @PrimaryKey(autoGenerate = true)
     private int itemID;
     private String itemName;
-    private double price;
+    private String Date;
+    private  int  VacationID;
 
-    public items(int itemID, String itemName, double price) {
+
+    public items(int itemID, String itemName, String Date, int VacationID) {
         this.itemID = itemID;
         this.itemName = itemName;
-        this.price = price;
+        this.Date = Date;
+        this.VacationID = VacationID;
     }
 
     public int getItemID() {
@@ -32,11 +35,20 @@ public class items {
         this.itemName = itemName;
     }
 
-    public double getPrice() {
-        return price;
+    public String getDate() {
+        return Date;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setDate(String date) {
+        this.Date = date;
     }
+    public int getVacationID() {
+        return VacationID;
+    }
+
+    public void setVacationID(int VacationID) {
+        this.VacationID = VacationID;
+    }
+
+
 }
