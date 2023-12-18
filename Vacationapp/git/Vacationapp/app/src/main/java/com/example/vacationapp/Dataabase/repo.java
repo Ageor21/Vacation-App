@@ -5,7 +5,6 @@ import android.app.Application;
 
 import com.example.vacationapp.DAO.ItemsDAO;
 import com.example.vacationapp.DAO.vacationsDAO;
-import com.example.vacationapp.Dataabase.VacationDatabase;
 import com.example.vacationapp.Enity.items;
 import com.example.vacationapp.Enity.vacations;
 
@@ -15,12 +14,12 @@ import java.util.concurrent.Executors;
 
 
 public class repo {
-    private final ItemsDAO mItemsDAO;
-    private final vacationsDAO mvacationsDAO;
-    private List<items> mAllitems;
-    private List<vacations> mAllvacations;
+    private static ItemsDAO mItemsDAO;
+    private static vacationsDAO mvacationsDAO;
+    private static List<items> mAllitems;
+    private static List<vacations> mAllvacations;
 
-    private static final int NUMBER_OF_THREADS=4;
+    private static int NUMBER_OF_THREADS=4;
     static final ExecutorService databaseExecutor= Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
     public repo(Application application){
@@ -28,9 +27,9 @@ public class repo {
         mItemsDAO=db.itemsDAO();
         mvacationsDAO=db.vacationsDAO();
     }
-    public List<vacations>getmAllvacations(){
+    public static List<vacations> getAllVacations(){
         databaseExecutor.execute(()->{
-            mAllvacations=mvacationsDAO.getAllvacations();
+            mAllvacations =mvacationsDAO.getAllvacations();
         });
 
         try {
@@ -40,9 +39,9 @@ public class repo {
         }
         return mAllvacations;
     }
-    public void insert(vacations vacations){
+    public static void insert(vacations Vacations){
         databaseExecutor.execute(()->{
-            mvacationsDAO.insert(vacations);
+            mvacationsDAO.insert(Vacations);
         });
         try {
             Thread.sleep(1000);
@@ -50,9 +49,9 @@ public class repo {
             e.printStackTrace();
         }
     }
-    public void update(vacations vacations){
+    public void update(vacations Vacations){
         databaseExecutor.execute(()->{
-            mvacationsDAO.update(vacations);
+            mvacationsDAO.update(Vacations);
         });
         try {
             Thread.sleep(1000);
@@ -60,9 +59,9 @@ public class repo {
             e.printStackTrace();
         }
     }
-    public void delete(vacations vacations){
+    public void delete(vacations Vacations){
         databaseExecutor.execute(()->{
-            mvacationsDAO.delete(vacations);
+            mvacationsDAO.delete(Vacations);
         });
         try {
             Thread.sleep(1000);
@@ -70,9 +69,9 @@ public class repo {
             e.printStackTrace();
         }
     }
-    public List<items>getAllParts(){
+    public static List<items>getAllitems(){
         databaseExecutor.execute(()->{
-            mAllitems=mItemsDAO.getAllitems();
+            mAllitems =mItemsDAO.getAllitems();
         });
 
         try {
@@ -82,9 +81,9 @@ public class repo {
         }
         return mAllitems;
     }
-    public void insert(items items){
+    public static void insert(items Items){
         databaseExecutor.execute(()->{
-            mItemsDAO.insert(items);
+            mItemsDAO.insert(Items);
         });
         try {
             Thread.sleep(1000);
@@ -92,7 +91,7 @@ public class repo {
             e.printStackTrace();
         }
     }
-    public void update(items items){
+    public static void update(items items){
         databaseExecutor.execute(()->{
             mItemsDAO.update(items);
         });

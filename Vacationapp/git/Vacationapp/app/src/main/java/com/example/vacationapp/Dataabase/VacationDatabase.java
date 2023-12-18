@@ -11,16 +11,18 @@ import com.example.vacationapp.DAO.vacationsDAO;
 import com.example.vacationapp.Enity.items;
 import com.example.vacationapp.Enity.vacations;
 
-@Database(entities = {vacations.class, items.class}, version = 2, exportSchema = false)
+@Database(entities = {vacations.class, items.class}, version = 11, exportSchema = false)
 public abstract class VacationDatabase extends RoomDatabase {
     public abstract vacationsDAO vacationsDAO();
+
     public abstract ItemsDAO itemsDAO();
+
     private static volatile VacationDatabase INSTANCE;
 
-    public static VacationDatabase getDatabase(final Context context){
-        if(INSTANCE==null)
-            synchronized (VacationDatabase.class){
-                if (INSTANCE==null) {
+    public static VacationDatabase getDatabase(final Context context) {
+        if (INSTANCE == null) {
+            synchronized (VacationDatabase.class) {
+                if (INSTANCE == null) {
                     INSTANCE = Room.databaseBuilder(context.getApplicationContext(), VacationDatabase.class, "MyVacationDatabase.db")
                             .fallbackToDestructiveMigration()
                             .build();
@@ -28,6 +30,7 @@ public abstract class VacationDatabase extends RoomDatabase {
                 }
 
             }
-        return INSTANCE;
+        }
+            return INSTANCE;
+        }
     }
-}
