@@ -6,7 +6,11 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Vacationapp/git/Vacationapp" />
+<<<<<<< HEAD
         <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle-8.4" />
+=======
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle-8.7" />
+>>>>>>> origin/develop
         <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
@@ -16,6 +20,14 @@
         </option>
         <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
+<<<<<<< HEAD
+=======
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Vacationapp/git/Vacationapp/gradle" />
+        <option name="gradleJvm" value="corretto-19" />
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+>>>>>>> origin/develop
     </option>
   </component>
 </project>
