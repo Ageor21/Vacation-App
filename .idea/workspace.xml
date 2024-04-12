@@ -5,7 +5,47 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_home_screen.xml">
+        <config>
+          <theme>@style/Theme.VacationApp</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_items_details.xml">
+        <config>
+          <theme>@style/Theme.VacationApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_vacation_lists.xml">
+        <config>
+          <theme>@style/Theme.VacationApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_vacations.xml">
+        <config>
+          <theme>@style/Theme.VacationApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/item_details.xml">
+        <config>
+          <theme>@style/Theme.VacationApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/items_list_sub.xml">
+        <config>
+          <theme>@style/Theme.VacationApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/vacation_details.xml">
+        <config>
+          <theme>@style/Theme.VacationApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/vacation_info.xml">
+        <config>
+          <theme>@style/Theme.VacationApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/vacation_list_sub.xml">
         <config>
           <theme>@style/Theme.VacationApp</theme>
         </config>
@@ -16,15 +56,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e07b6f8e-f0fa-4be1-a17f-43a9664179da" name="Changes" comment="Adding the app view to git">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/d308-mobile-application-development-android.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e07b6f8e-f0fa-4be1-a17f-43a9664179da" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/test/java/com/example/vacationapp/UnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Excursions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Excursions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_home_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_home_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/test/java/com/example/vacationapp/ExampleUnitTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +84,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -52,16 +96,26 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -159,6 +213,68 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All Tests" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="Vacation_app.app" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_NAME_REGEX" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="RETENTION_ENABLED" value="No" />
+      <option name="RETENTION_MAX_SNAPSHOTS" value="2" />
+      <option name="RETENTION_COMPRESS_SNAPSHOTS" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/d308-mobile-application-development-android" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -179,8 +295,59 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'com.example.vacationapp'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Vacationapp/git/Vacationapp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.vacationapp.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Vacationapp/git/Vacationapp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.vacationapp.UnitTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UnitTest" />
+        <item itemvalue="Android Instrumented Tests.All Tests" />
+        <item itemvalue="Gradle.Tests in 'com.example.vacationapp'" />
         <item itemvalue="Gradle.D:/d308-mobile-application-development-android" />
       </list>
     </recent_temporary>
