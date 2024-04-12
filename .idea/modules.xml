@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AndroidStudioProjects.iml" filepath="$PROJECT_DIR$/.idea/AndroidStudioProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Vacation_app.iml" filepath="$PROJECT_DIR$/.idea/modules/Vacation_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vacation_app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vacation_app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vacation_app.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vacation_app.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vacation_app.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vacation_app.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vacation_app.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vacation_app.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/d308-mobile-application-development-android.iml" filepath="$PROJECT_DIR$/.idea/d308-mobile-application-development-android.iml" />
     </modules>
   </component>
 </project>

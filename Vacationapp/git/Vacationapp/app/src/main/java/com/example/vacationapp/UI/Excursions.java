@@ -11,6 +11,6 @@ public class Excursions extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_excursions);
+        setContentView(R.layout.activity_items_details);
     }
 }
