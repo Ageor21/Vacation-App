@@ -57,16 +57,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e07b6f8e-f0fa-4be1-a17f-43a9664179da" name="Changes" comment="Adding the app view to git">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/d308-mobile-application-development-android.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AndroidStudioProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AndroidStudioProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/d308-mobile-application-development-android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/d308-mobile-application-development-android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/androidTest/java/com/example/vacationapp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/androidTest/java/com/example/vacationapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/DAO/ItemsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/DAO/ItemsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/DAO/vacationsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/DAO/vacationsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/Dataabase/VacationDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/Dataabase/VacationDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/Dataabase/repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/Dataabase/repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/Enity/items.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/Enity/items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/Enity/vacations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/Enity/vacations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Adapter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Adapter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Adapter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Adapter2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Excursions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Excursions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/ItemsDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/ItemsDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/MyReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/MyReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/MyReceiver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/MyReceiver2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/VacationDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/VacationDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Vacation_Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Vacation_Lists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Vacations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/java/com/example/vacationapp/UI/Vacations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/drawable/add_sign.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/drawable/add_sign.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/drawable/baseline_travel_explore_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/drawable/baseline_travel_explore_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_home_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_home_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_items_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_items_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_vacation_lists.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_vacation_lists.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_vacations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/activity_vacations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/item_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/item_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/items_list_sub.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/items_list_sub.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/vacation_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/vacation_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/vacation_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/vacation_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/vacation_list_sub.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/layout/vacation_list_sub.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/menu/items_mod.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/menu/items_mod.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/menu/vacation_menu_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/menu/vacation_menu_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/menu/vacation_modifiying.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/menu/vacation_modifiying.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/test/java/com/example/vacationapp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app/src/test/java/com/example/vacationapp/ExampleUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Vacationapp/git/Vacationapp/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +134,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\kanze\.android\avd\Medium_Phone_API_31.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\kanze\.android\avd\Pixel_8_Pro_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Vacationapp/git/Vacationapp">
       <ProjectState />
@@ -88,6 +146,9 @@
         <task path="$PROJECT_DIR$/Vacationapp/git/Vacationapp/app">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/Vacationapp/git/Vacationapp">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -97,6 +158,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -105,22 +173,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLabMergeRequestFiltersHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPENED",
-    "assignee": {
-      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
-      "username": "ageor88",
-      "fullname": "Aaron George"
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;ageor88&quot;,
+      &quot;fullname&quot;: &quot;Aaron George&quot;
     }
   }
-}]]></component>
-  <component name="GitLabMergeRequestsSettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "first": "https://gitlab.com/wgu-gitlab-environment/student-repos/ageor88/d424-software-engineering-capstone.git",
-    "second": "fbb9a93b-cc83-4aed-9716-79099352807e"
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://gitlab.com/wgu-gitlab-environment/student-repos/ageor88/d424-software-engineering-capstone.git&quot;,
+    &quot;second&quot;: &quot;fbb9a93b-cc83-4aed-9716-79099352807e&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -133,23 +201,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Android/Android Studio/gradle-8.7&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/kanze/OneDrive/Desktop",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Android App.Vacation_app.app">
     <configuration name="Vacation_app.app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="Vacation_app.app.main" />
       <option name="DEPLOY" value="true" />
@@ -213,10 +283,37 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
+    <configuration name="ExampleUnitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Vacationapp/git/Vacationapp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.vacationapp.ExampleUnitTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ExampleUnitTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -246,6 +343,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding the app view to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the app view to git" />
+    <MESSAGE value="new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files" />
   </component>
 </project>
